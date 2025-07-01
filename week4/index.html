@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts: Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <title>TV Show Search</title>
+
+    <!-- Bootstrap CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="week4.css" />
+</head>
+
+<body>
+    <!-- ✅ Bootstrap Navbar with required structure -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">TV Show Viewer</a>
+
+            <!-- ✅ Form with correct ID and structure -->
+            <form id="show-form" class="d-flex" role="search">
+                <input class="form-control me-2" type="search" id="input-show" placeholder="Search for a TV show"
+                    required />
+                <button class="btn btn-outline-success" type="submit" id="submit-data">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="show-container"></div>
+    </div>
+
+    <!-- Bootstrap JS (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="week4.js"></script>
+</body>
+
+</html>
