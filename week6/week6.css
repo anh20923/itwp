@@ -1,0 +1,16 @@
+#chart {
+    max-width: 900px;
+    margin: 20px auto;
+    height: 450px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+input,
+button {
+    padding: 5px;
+    margin: 5px;
+}

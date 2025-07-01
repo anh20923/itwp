@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Population Growth Chart</title>
+    <script src="https://unpkg.com/frappe-charts@1.5.4/dist/frappe-charts.min.iife.js"></script>
+    <script defer src="week6.js"></script>
+</head>
+
+<body>
+    <h2>Example charts:</h2>
+    <label>Enter municipality</label>
+    <input id="municipality" value="whole country">
+    <button onclick="fetchData()">Submit</button>
+
+    <p>Population growth in whole country</p>
+    <div id="chart"></div>
+
+    <div style="margin-top: 20px;">
+        <button id="add-data">View estimative data</button>
+        <button id="navigation">View birth and death charts</button>
+    </div>
+
+</body>
+
+</html>
